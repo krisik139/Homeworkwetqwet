@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int main() {
         arr[i] = 99 - (i * 3);
     }
 
-    cout << "Ñïàäàþ÷èé ìàñèâ: ";
+    cout << "ÑÐ¿Ð°Ð´Ð°ÑŽÑ‡Ð¸Ð¹ Ð¼Ð°ÑÐ¸Ð²: ";
     for (int i = 0; i < 10; i++) {
         cout << arr[i] << " ";
     }
