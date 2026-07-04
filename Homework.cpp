@@ -1,20 +1,52 @@
-// Homework.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+﻿#include <iostream>
 
-#include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    system("chcp 1251>null");
+    int poket;
+    cout << "Введіть кишеньку(від 0 до 36): ";
+    cin >> poket;
+    
+    if (poket < 0 || poket > 36) {
+        cout << "КУДИ ЛІЗЕШ." << endl;
+    }
+    else if (poket == 0) {
+        cout << "зелений" << endl;
+    }
+    else if (poket >= 1 && poket <= 10) {
+        if (poket % 2 != 0) {
+            cout << "червоний" << endl;
+        }
+        else {
+            cout << "чорний" << endl;
+        }
+    }
+    else if (poket >= 11 && poket <= 18) {
+        if (poket % 2 != 0) {
+            cout << "чорний" << endl;
+        }
+        else {
+            cout << "червоний" << endl;
+        }
+    }
+    else if (poket >= 19 && poket <= 28) {
+        if (poket % 2 != 0) {
+            cout << "червоний" << endl;
+        }
+        else {
+            cout << "чорний" << endl;
+        }
+    }
+    else if (poket >= 29 && poket <= 36) {
+        if (poket % 2 != 0) {
+            cout << "чорний" << endl;
+        }
+        else {
+            cout << "червоний" << endl;
+        }
+    }
+
+    return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
