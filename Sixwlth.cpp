@@ -30,7 +30,7 @@ int main() {
         *(C + i) = *(zbigi + i);
     }
 
-    std::cout << "масив зі спільними елементами: ";
+    std::cout << "РјР°СЃРёРІ: ";
     for (int i = 0; i < count; ++i) {
         std::cout << *(C + i) << " ";
     }
