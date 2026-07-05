@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Fivelth.cpp">
+    <ClCompile Include="Sixwlth.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
