@@ -19,7 +19,7 @@ int main() {
         vkazC++;
     }
 
-    std::cout << "Array C: ";
+    std::cout << "масив C: ";
     for (int i = 0; i < size; ++i) {
         std::cout << *(C + i) << " ";
     }
